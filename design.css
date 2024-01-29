@@ -57,7 +57,7 @@ body {
     outline: none;
     height: 30px;
     color: #fff;
-    width: 250px;
+    width: 220px;
     text-transform: capitalize;
     font-size: 16px;
     font-weight: 16px;
@@ -66,7 +66,7 @@ body {
 }
 
 .searchbox:focus {
-    width: 350px;
+    width: 250px;
     border-color: #1f80e0;
 }
 
@@ -112,6 +112,9 @@ body {
 
 .slider {
     flex: 0 0 auto;
+    background-image: url("images/loki.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-right: 30px;
     position: relative;
     background: rgbs(0, 0, 0, 0.5);
@@ -134,23 +137,28 @@ body {
 
 .slide-content {
     position: absolute;
+    background: transparent ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50%;
     height: 100%;
+    text-align: center;
+    align-items: center;
     z-index: 2;
-    background: linear-gradient(to right, #030b17 80%, #0c111b00);
+    background: linear-gradient(to right, #030b17 0%, #0c111b00);
     color: #fff;
 }
 
 .movietitle {
     width: 90%;
     line-height: 30px;
-    padding-left: 50px;
-    margin-top: 30px;
 }
 .movie-des{
-width: 80%;
+text-align: left;
+width: 90%;
 line-height: 30px;
 padding-left: 50px;
-margin-top: 30px;
+margin-top: 60px;
 opacity: 0.8;
 }
