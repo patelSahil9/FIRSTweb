@@ -55,3 +55,64 @@ setInterval(()=>{
 }
 ,3000);
 }
+
+
+document.getElementById("card-vi-1").play();
+
+document.getElementById("video-card-1").addEventListener("click",()=>{
+    {
+        console.log("tay 6 bhai 1")
+        let temp=document.getElementsByClassName("card-vi");
+        for(let i=0;i<temp.length;i++)
+        {
+            temp[i].style.display="none";
+        }
+        document.getElementById("card-vi-1").style.display="inline";
+        document.getElementById("card-vi-1").play();
+    }
+})
+
+document.getElementById("video-card-2").addEventListener("click",()=>{
+    console.log("tay 6 bhai 2")
+    let temp=document.getElementsByClassName("card-vi");
+    for(let i=0;i<temp.length;i++)
+    {
+        temp[i].style.display="none";
+    }
+    document.getElementById("card-vi-2").style.display="inline";
+    document.getElementById("card-vi-2").play();
+})
+
+document.getElementById("video-card-3").addEventListener("click",()=>{
+    console.log("tay 6 bhai 3")
+    let temp=document.getElementsByClassName("card-vi");
+    for(let i=0;i<temp.length;i++)
+    {
+        temp[i].style.display="none";
+    }
+    document.getElementById("card-vi-3").style.display="inline";
+    document.getElementById("card-vi-3").play();
+})
+
+document.getElementById("video-card-4").addEventListener("click",()=>{
+    console.log("tay 6 bhai 4")
+    let temp=document.getElementsByClassName("card-vi");
+    for(let i=0;i<temp.length;i++)
+    {
+        temp[i].style.display="none";
+    }
+    document.getElementById("card-vi-4").style.display="inline";
+    document.getElementById("card-vi-4").play();
+})
+
+document.getElementById("video-card-5").addEventListener("click",()=>{
+    console.log("tay 6 bhai 5")
+    let temp=document.getElementsByClassName("card-vi");
+    for(let i=0;i<temp.length;i++)
+    {
+        temp[i].style.display="none";
+    }
+    document.getElementById("card-vi-5").style.display="inline";
+    document.getElementById("card-vi-5").play();
+})
+
