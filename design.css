@@ -92,6 +92,9 @@ body {
     font-weight: 700;
 
 }
+login:hover{
+    color: #0ef;
+}
 
 .dcontainer {
     position: relative;
@@ -127,6 +130,7 @@ body {
 }
 
 .slider img {
+   
     width: 70%;
     min-height: 100%;
     object-fit: cover;
@@ -136,6 +140,7 @@ body {
 }
 
 .slide-content {
+    
     position: absolute;
     background: transparent ;
     display: flex;
