@@ -104,17 +104,7 @@ body {
     color: #0ef;
 }
 
-.login span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    border-bottom: 2px solid #0ef;
-    border-radius: 15px;
-    
-    }
+
 
 
 .dcontainer {
