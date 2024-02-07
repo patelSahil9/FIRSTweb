@@ -5,9 +5,13 @@ body {
 	font-family: poppins;
 	font-size: 16px;
 	color: #fff;
+	background-image: url(https://www.flickonclick.com/wp-content/uploads/2021/05/disney-plus-hotstar-india-1-2048x1100.jpg);
+	background-size: cover;
 }
+
 .form-box {
-	background-image: url("");
+	
+    /* background-image: url(https://pageflows.com/media/videos/thumbnail_91ed83cf-7b1e-443c-a99e-dbdefa9f27d6.jpg);  */
 	background-color: rgba(0, 0, 0, 0.5);
 	margin: auto auto;
 	padding: 40px;
@@ -20,23 +24,9 @@ body {
 	right: 0;
 	width: 500px;
 	height: 430px;
+	;
 }
-.form-box:before {
-	
-    
-	width: 0%;
-	height: 0%;
-	background-size: cover;
-	content: "";
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	z-index: -1;
-	display: block;
-	filter: blur(2px);
-}
+
 .form-box .header-text {
 	font-size: 32px;
 	font-weight: 600;
