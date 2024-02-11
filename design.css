@@ -127,7 +127,8 @@ body {
 
 .slider {
     flex: 0 0 auto;
-    background-image: url("images/loki.jpg");
+    background-image: url("images/loki.jpg"), url("images/logo.png"), url("images/loki.jpg");
+    
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 30px;
@@ -142,6 +143,7 @@ body {
 }
 
 .slider img {
+    background-image: url("images/loki.jpg");
     width: 70%;
     min-height: 100%;
     object-fit: cover;
